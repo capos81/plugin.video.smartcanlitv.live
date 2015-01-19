@@ -1,9 +1,8 @@
-===4.1.51===
-.............
-Tarih: 10.01.2015
-....................
-GOTHAM ve FRODO Sorunsuz Calisir.
-Herhangi beklenmedik durumda forumdan sorunu belirtiniz.
-<<< smartcanlitv.esy.es >>>
-Sponsor ve Reklam ALIMLARIMIZ BASLAMISTIR.
-Herkese iyi kullanimlar.
+1.2.4 - Fixed Al-Jazeera streams
+1.2.3 - Added AJ Arabic (thanks FirasAlShafei)
+1.2.2 - replaced ABC24 Logo
+1.2.1 - Fixed Type-o
+1.2.0 - Added a bunch more channels
+1.1.0 - added custom stream support
+1.0.0 - fixed version number bug.
+0.0.1 - initial release. supports al-jazeera english, cnn and cspan
