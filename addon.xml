@@ -4,7 +4,7 @@
 		version="1.7" 
 		provider-name="drascom">
 	<extension point="xbmc.addon.repository" name="drascom Add-on Repository">
-		<info compressed="false">https://xbmc-tr-team-turkish-addon-s.googlecode.com/svn/trunk/addons.xml</info>
+		<info compressed="false">https://github.com/capos81/plugin.video.smartcanlitv.live/blob/master/addon.xml</info>
 		<checksum>https://xbmc-tr-team-turkish-addon-s.googlecode.com/svn/trunk/addons.xml.md5</checksum>
 		<datadir zip="true">https://xbmc-tr-team-turkish-addon-s.googlecode.com/svn/trunk/</datadir>
 	</extension>
