@@ -12,7 +12,7 @@ except:
 from pysqlite2 import dbapi2 as sqlite
 __plugin__ = "Smart Canli Live"
 __author__ = 'Gokhan Kubilay <smartcanlitv@gmail.com>'
-__url__ = 'http://world-news-live.googlecode.com/svn/trunk'
+__url__ = 'http://smartcanlitv.bplaced.net/kurulum'
 __date__ = '1-10-2013'
 __version__ = '1.2.7'
 __settings__ = xbmcaddon.Addon(id='plugin.video.smartcanlitv.live')
