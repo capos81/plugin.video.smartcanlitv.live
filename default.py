@@ -10,15 +10,15 @@ try:
 from sqlite3 import dbapi2 as sqlite
 except:
 from pysqlite2 import dbapi2 as sqlite
-__plugin__ = "World News Live"
-__author__ = 'Florian Neagu <michaelneagu@gmail.com>'
+__plugin__ = "Smart Canli Live"
+__author__ = 'Gokhan Kubilay <smartcanlitv@gmail.com>'
 __url__ = 'http://world-news-live.googlecode.com/svn/trunk'
 __date__ = '1-10-2013'
 __version__ = '1.2.7'
-__settings__ = xbmcaddon.Addon(id='plugin.video.world.news.live')
+__settings__ = xbmcaddon.Addon(id='plugin.video.smartcanlitv.live')
 class WorldNewsLivePlugin(object):
 def connect_to_db(self):
-path = xbmc.translatePath('special://profile/addon_data/plugin.video.world.news.live/')
+path = xbmc.translatePath('special://profile/addon_data/plugin.video.smartcanlitv.live/')
 if not os.path.exists(path):
 os.makedirs(path)
 self.db_conn = sqlite.connect(os.path.join(path, 'custom_streams.db'))
@@ -162,7 +162,7 @@ def get_cache_dir(self):
 return an acceptable cache directory.
 """
 # I have no idea if this is right.
-path = xbmc.translatePath('special://profile/addon_data/plugin.video.world.news.live/cache/')
+path = xbmc.translatePath('special://profile/addon_data/plugin.video.smartcanlitv.live/cache/')
 if not os.path.exists(path):
 os.makedirs(path)
 return path
@@ -278,5 +278,5 @@ self.args = {}
 self.connect_to_db()
 logging.debug("Constructed Plugin %s" % (self.__dict__,))
 if __name__ == '__main__':
-plugin = WorldNewsLivePlugin(*sys.argv)
+plugin = SmartCanliLivePlugin(*sys.argv)
 plugin()
