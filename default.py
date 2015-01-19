@@ -18,7 +18,7 @@ __version__ = '1.2.7'
 __settings__ = xbmcaddon.Addon(id='plugin.video.smartcanlitv.live')
 class WorldNewsLivePlugin(object):
 def connect_to_db(self):
-path = xbmc.translatePath('special://profile/addon_data/plugin.video.smartcanlitv.live/')
+path = xbmc.translatePath('special://profile/addon_data/plugin.video.smartcanlitv.live')
 if not os.path.exists(path):
 os.makedirs(path)
 self.db_conn = sqlite.connect(os.path.join(path, 'custom_streams.db'))
