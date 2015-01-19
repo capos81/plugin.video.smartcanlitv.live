@@ -22,4 +22,4 @@ Disclaimer
 This script is released freely without restrictions, but also without warrenty as described in the file "COPYING.txt"
 Credits
 
-    andrepl Initial addon development.
+    capostr Initial addon development.
